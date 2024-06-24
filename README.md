@@ -3,7 +3,17 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 # Getting Started
 ## Build your application using npm
 
-npm install
+- npm install
+
+*Then, execute the following command
+
+- npx react-native run-windows
+
+*and finally this one
+
+- npx react-native autolink-windows
+
+(For more information, visit this link https://microsoft.github.io/react-native-windows/docs/getting-started)
 
 ## Run application
 

@@ -75,6 +75,8 @@ yarn-error.log
 
 # windows
 
+windows/.vs/
+
 windows/*AppPackages*
 windows/*BundleArtifacts*
 
