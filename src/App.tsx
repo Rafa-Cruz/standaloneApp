@@ -27,6 +27,8 @@ import { styles } from './GlobalStyles';
 import Header from './Components/Header';
 import { NavigationContainer } from '@react-navigation/native';
 import NavigationStack from './Navigation/Navigation';
+import NavigationTab from './Navigation/NavigationTab';
+import NavigationDrawer from './Navigation/NavigationDrawer';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -67,7 +69,9 @@ function App(): React.JSX.Element {
 
   return (
     <NavigationContainer>
-      <NavigationStack />
+      {/* <NavigationStack /> */}
+      <NavigationTab />
+      {/* <NavigationDrawer /> */}
       {/* <SafeAreaView style={backgroundStyle}>
         <StatusBar
           barStyle={isDarkMode ? 'light-content' : 'dark-content'}
