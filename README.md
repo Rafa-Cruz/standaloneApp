@@ -1,5 +1,27 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
+
+# Prerequisites
+
+Before you run this project, ensure you have the following programs installed:
+
+- Node 18
+- VS Code
+- Visual Studio 2022
+- .NET (All of this can be installed using the VS installer)
+- - .NET 8.0 Runtime (Long Term Support)
+- - .NET Aspire SDK
+- - .NET Framework 4.8 targeting pack
+- - .NET Native
+- - .NET SDK
+- - Windows 11 SDK
+
+Verify all of aforementioned programs are selected once you install VS the first time. If you don't wan't to install individual components, select Workloads and select the following:
+
+- ASP.NET and web development
+- Desktop development with C++
+- Windows application development
+
 # Getting Started
 ## Build your application using npm
 
